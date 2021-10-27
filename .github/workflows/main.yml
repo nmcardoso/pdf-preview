@@ -1,0 +1,25 @@
+name: PDF Generator
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup git repo
+        uses: actions/checkout@v2
+      
+      - name: Run Script
+        run: |
+          sudo apt install -y poppler-utils
+          pip install -r requirements.txt
+          python3 main.py
+          cd output
+          git config --global user.email "actions@github.com"
+          git config --global user.name "Github Actions"
+          git init
+          git add .
+          git commit --quiet -m "PDF Preview"
+          git push --force --quiet "https://nmcardoso:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git" master:gh-pages

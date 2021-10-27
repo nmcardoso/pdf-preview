@@ -1,0 +1,11 @@
+report-pef3208:
+  branch: master
+  files:
+    - report/output/main.pdf
+
+ic-reports:
+  branch: main
+  files:
+    - 2021/output/relatorio.pdf
+    - 2021/output/siicusp_en.pdf
+    - 2021/output/siicusp_pt.pdf
