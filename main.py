@@ -48,6 +48,8 @@ def main():
       urllib.request.urlretrieve(url, pdf_path)
 
       subprocess.run(['pdftoppm', '-png', pdf_path, command_output])
+    
+    print('\n\n')
 
 
 if __name__ == '__main__':
