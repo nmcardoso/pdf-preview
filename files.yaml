@@ -1,7 +1,14 @@
-report-pef3208:
-  branch: master
+poli:
+  branch: main
   files:
-    - report/output/main.pdf
+    - eletromagnetismo/ec1/output/relatorio.pdf
+    - eletromagnetismo/ec2/output/relatorio.pdf
+    - eletromagnetismo/ee2/output/relatorio.pdf
+    - estatistica/projeto/projeto_1.pdf
+    - estatistica/projeto/projeto_2.pdf
+    - mec-estruturas/report/output/main.pdf
+    - mec-estruturas/slides/output/main.pdf
+
 
 ic-reports:
   branch: main
@@ -9,3 +16,5 @@ ic-reports:
     - 2021/output/relatorio.pdf
     - 2021/output/siicusp_en.pdf
     - 2021/output/siicusp_pt.pdf
+    - 2021/output/slides.pdf
+    - 2016/output/main.pdf
