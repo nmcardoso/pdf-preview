@@ -7,7 +7,7 @@ poli:
     - estatistica/projeto/projeto_1.pdf
     - estatistica/projeto/projeto_2.pdf
     - mec-estruturas/report/output/main.pdf
-    - mec-estruturas/slides/output/main.pdf
+    - mec-estruturas/slide/output/main.pdf
 
 
 ic-reports:
