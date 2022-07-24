@@ -10,6 +10,15 @@ poli:
     - mec-estruturas/slide/output/main.pdf
     - lab-circuitos-eletricos/projeto/output/main.pdf
     - lab-digital/exp02/relatorio/output/main.pdf
+    - lab-digital/exp03/relatorio/output/main.pdf
+    - lab-digital/exp04/relatorio/output/main.pdf
+    - lab-digital/exp05/relatorio/output/main.pdf
+    - lab-digital/exp06/relatorio/output/main.pdf
+    - lab-digital/exp07/relatorio/output/main.pdf
+    - lab-digital/exp09/relatorio/output/main.pdf
+    - lab-digital/p1/relatorio/output/main.pdf
+    - lab-digital/p2/relatorio/output/main.pdf
+
 
 ic-reports:
   branch: main
