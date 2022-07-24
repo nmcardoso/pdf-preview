@@ -9,6 +9,7 @@ poli:
     - mec-estruturas/report/output/main.pdf
     - mec-estruturas/slide/output/main.pdf
     - lab-circuitos-eletricos/projeto/output/main.pdf
+    - lab-digital/exp02/output/main.pdf
 
 
 ic-reports:
