@@ -18,6 +18,9 @@ poli:
     - lab-digital/exp09/relatorio/output/main.pdf
     - lab-digital/p1/relatorio/output/main.pdf
     - lab-digital/p2/relatorio/output/main.pdf
+    - numerico/ep1/relatorio/output/main.pdf
+    - numerico/ep2/relatorio/output/main.pdf
+    - numerico/ep3/relatorio/output/main.pdf
 
 
 ic-reports:
